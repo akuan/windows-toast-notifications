@@ -35,6 +35,23 @@ namespace ToastNotifications
             lifeTimer.Interval = duration;
             labelTitle.Text = title;
             labelBody.Text = body;
+            if(title==null|| title.Length == 0)
+            {
+                labelBody.Location = labelTitle.Location;
+                labelBody.Top += 5;
+                Height = Height - labelTitle.Height;
+                labelTitle.Visible = false;
+            }
+            Graphics g = labelBody.CreateGraphics();
+            SizeF size = g.MeasureString(body, labelBody.Font);
+            if (Width < size.Width)
+            {
+                Width = (int)size.Width + 20;
+            }
+            if (Height < size.Height)
+            {
+                Height = (int)size.Height + 20;
+            }
 
             _animator = new FormAnimator(this, animation, direction, 500);
 

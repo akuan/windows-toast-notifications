@@ -47,7 +47,7 @@
             // 
             this.labelTitle.AutoSize = true;
             this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.Location = new System.Drawing.Point(13, 19);
+            this.labelTitle.Location = new System.Drawing.Point(13, 18);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(32, 13);
             this.labelTitle.TabIndex = 0;
@@ -55,17 +55,17 @@
             // 
             // textBoxTitle
             // 
-            this.textBoxTitle.Location = new System.Drawing.Point(89, 16);
+            this.textBoxTitle.Location = new System.Drawing.Point(89, 15);
             this.textBoxTitle.Name = "textBoxTitle";
-            this.textBoxTitle.Size = new System.Drawing.Size(191, 20);
+            this.textBoxTitle.Size = new System.Drawing.Size(191, 21);
             this.textBoxTitle.TabIndex = 1;
-            this.textBoxTitle.Text = "My Notification";
+            this.textBoxTitle.Text = "正在切换文件...";
             // 
             // labelBody
             // 
             this.labelBody.AutoSize = true;
             this.labelBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBody.Location = new System.Drawing.Point(13, 56);
+            this.labelBody.Location = new System.Drawing.Point(13, 52);
             this.labelBody.Name = "labelBody";
             this.labelBody.Size = new System.Drawing.Size(35, 13);
             this.labelBody.TabIndex = 2;
@@ -73,18 +73,18 @@
             // 
             // textBoxBody
             // 
-            this.textBoxBody.Location = new System.Drawing.Point(89, 53);
+            this.textBoxBody.Location = new System.Drawing.Point(89, 49);
             this.textBoxBody.Multiline = true;
             this.textBoxBody.Name = "textBoxBody";
-            this.textBoxBody.Size = new System.Drawing.Size(191, 51);
+            this.textBoxBody.Size = new System.Drawing.Size(191, 47);
             this.textBoxBody.TabIndex = 3;
-            this.textBoxBody.Text = "My notification message goes here";
+            this.textBoxBody.Text = "正在切换到《中共中央办公厅 国务院办公厅关于调整应急管理部职责机构编制的通知》";
             // 
             // labelDuration
             // 
             this.labelDuration.AutoSize = true;
             this.labelDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDuration.Location = new System.Drawing.Point(13, 128);
+            this.labelDuration.Location = new System.Drawing.Point(13, 118);
             this.labelDuration.Name = "labelDuration";
             this.labelDuration.Size = new System.Drawing.Size(55, 13);
             this.labelDuration.TabIndex = 4;
@@ -100,16 +100,16 @@
             "3",
             "5",
             "10"});
-            this.comboBoxDuration.Location = new System.Drawing.Point(89, 128);
+            this.comboBoxDuration.Location = new System.Drawing.Point(89, 118);
             this.comboBoxDuration.Name = "comboBoxDuration";
-            this.comboBoxDuration.Size = new System.Drawing.Size(191, 21);
+            this.comboBoxDuration.Size = new System.Drawing.Size(191, 20);
             this.comboBoxDuration.TabIndex = 5;
             // 
             // labelAnimation
             // 
             this.labelAnimation.AutoSize = true;
             this.labelAnimation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAnimation.Location = new System.Drawing.Point(14, 158);
+            this.labelAnimation.Location = new System.Drawing.Point(14, 146);
             this.labelAnimation.Name = "labelAnimation";
             this.labelAnimation.Size = new System.Drawing.Size(62, 13);
             this.labelAnimation.TabIndex = 6;
@@ -119,25 +119,25 @@
             // 
             this.comboBoxAnimation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAnimation.FormattingEnabled = true;
-            this.comboBoxAnimation.Location = new System.Drawing.Point(89, 155);
+            this.comboBoxAnimation.Location = new System.Drawing.Point(89, 143);
             this.comboBoxAnimation.Name = "comboBoxAnimation";
-            this.comboBoxAnimation.Size = new System.Drawing.Size(191, 21);
+            this.comboBoxAnimation.Size = new System.Drawing.Size(191, 20);
             this.comboBoxAnimation.TabIndex = 7;
             // 
             // comboBoxAnimationDirection
             // 
             this.comboBoxAnimationDirection.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAnimationDirection.FormattingEnabled = true;
-            this.comboBoxAnimationDirection.Location = new System.Drawing.Point(89, 182);
+            this.comboBoxAnimationDirection.Location = new System.Drawing.Point(89, 168);
             this.comboBoxAnimationDirection.Name = "comboBoxAnimationDirection";
-            this.comboBoxAnimationDirection.Size = new System.Drawing.Size(191, 21);
+            this.comboBoxAnimationDirection.Size = new System.Drawing.Size(191, 20);
             this.comboBoxAnimationDirection.TabIndex = 9;
             // 
             // labelAnimationDirection
             // 
             this.labelAnimationDirection.AutoSize = true;
             this.labelAnimationDirection.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAnimationDirection.Location = new System.Drawing.Point(13, 185);
+            this.labelAnimationDirection.Location = new System.Drawing.Point(13, 171);
             this.labelAnimationDirection.Name = "labelAnimationDirection";
             this.labelAnimationDirection.Size = new System.Drawing.Size(58, 13);
             this.labelAnimationDirection.TabIndex = 8;
@@ -145,9 +145,9 @@
             // 
             // buttonShowNotification
             // 
-            this.buttonShowNotification.Location = new System.Drawing.Point(89, 262);
+            this.buttonShowNotification.Location = new System.Drawing.Point(89, 242);
             this.buttonShowNotification.Name = "buttonShowNotification";
-            this.buttonShowNotification.Size = new System.Drawing.Size(105, 23);
+            this.buttonShowNotification.Size = new System.Drawing.Size(105, 21);
             this.buttonShowNotification.TabIndex = 10;
             this.buttonShowNotification.Text = "Show Notification";
             this.buttonShowNotification.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             // 
             this.comboBoxSound.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSound.FormattingEnabled = true;
-            this.comboBoxSound.Location = new System.Drawing.Point(89, 211);
+            this.comboBoxSound.Location = new System.Drawing.Point(89, 195);
             this.comboBoxSound.Name = "comboBoxSound";
-            this.comboBoxSound.Size = new System.Drawing.Size(191, 21);
+            this.comboBoxSound.Size = new System.Drawing.Size(191, 20);
             this.comboBoxSound.TabIndex = 12;
             this.comboBoxSound.SelectedIndexChanged += new System.EventHandler(this.comboBoxSound_SelectedIndexChanged);
             // 
@@ -167,7 +167,7 @@
             // 
             this.labelSound.AutoSize = true;
             this.labelSound.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSound.Location = new System.Drawing.Point(13, 214);
+            this.labelSound.Location = new System.Drawing.Point(13, 198);
             this.labelSound.Name = "labelSound";
             this.labelSound.Size = new System.Drawing.Size(43, 13);
             this.labelSound.TabIndex = 11;
@@ -175,9 +175,9 @@
             // 
             // NotificationLauncher
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 297);
+            this.ClientSize = new System.Drawing.Size(292, 274);
             this.Controls.Add(this.comboBoxSound);
             this.Controls.Add(this.labelSound);
             this.Controls.Add(this.buttonShowNotification);
