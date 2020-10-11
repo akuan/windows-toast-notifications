@@ -38,7 +38,7 @@ namespace ToastNotifications
 
             _animator = new FormAnimator(this, animation, direction, 500);
 
-            Region = Region.FromHrgn(NativeMethods.CreateRoundRectRgn(0, 0, Width - 5, Height - 5, 20, 20));
+             Region = Region.FromHrgn(NativeMethods.CreateRoundRectRgn(0, 0, Width - 5, Height - 5, 20, 20));
         }
 
         #region Methods
@@ -64,8 +64,10 @@ namespace ToastNotifications
         private void Notification_Load(object sender, EventArgs e)
         {
             // Display the form just above the system tray.
-            Location = new Point(Screen.PrimaryScreen.WorkingArea.Width - Width,
-                                      Screen.PrimaryScreen.WorkingArea.Height - Height);
+            //Location = new Point(Screen.PrimaryScreen.WorkingArea.Width - Width,
+            //Screen.PrimaryScreen.WorkingArea.Height - Height);
+            Location = new Point((Screen.PrimaryScreen.WorkingArea.Width - Width )/ 2,
+            (Screen.PrimaryScreen.WorkingArea.Height - Height )/ 2);
 
             // Move each open form upwards to make room for this one
             foreach (Notification openForm in OpenNotifications)

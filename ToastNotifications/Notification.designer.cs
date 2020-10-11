@@ -45,9 +45,9 @@ namespace ToastNotifications
             this.labelBody.BackColor = System.Drawing.Color.Transparent;
             this.labelBody.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBody.ForeColor = System.Drawing.Color.White;
-            this.labelBody.Location = new System.Drawing.Point(7, 29);
+            this.labelBody.Location = new System.Drawing.Point(7, 27);
             this.labelBody.Name = "labelBody";
-            this.labelBody.Size = new System.Drawing.Size(236, 42);
+            this.labelBody.Size = new System.Drawing.Size(236, 39);
             this.labelBody.TabIndex = 0;
             this.labelBody.Text = "Body goes here and here and here and here and here";
             this.labelBody.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -60,19 +60,18 @@ namespace ToastNotifications
             this.labelTitle.ForeColor = System.Drawing.Color.Gainsboro;
             this.labelTitle.Location = new System.Drawing.Point(3, 1);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(253, 21);
+            this.labelTitle.Size = new System.Drawing.Size(253, 19);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "title goes here";
             this.labelTitle.Click += new System.EventHandler(this.labelTitle_Click);
             // 
             // Notification
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(255, 80);
+            this.ClientSize = new System.Drawing.Size(255, 74);
             this.ControlBox = false;
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.labelBody);
